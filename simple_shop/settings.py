@@ -37,11 +37,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'goods',
-    'warehouse',
-    'payment_gateway',
-    'graphene_django',
+
+    # external
     'rest_framework',
+    'graphene_django',
+
+    # local
+    'analytics',
+    'goods',
+    'payment_gateway',
+    'payment_document',
+    'user_profile',
+    'warehouse',
+    'working_space',
 ]
 
 MIDDLEWARE = [
